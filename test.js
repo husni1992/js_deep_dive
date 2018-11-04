@@ -1,18 +1,14 @@
 var t = 99;
 
 function run() {
-  var t = 88;
-  function a() {
-    function b() {
-      t = window.t;
-      function c() {
-        console.log(t);
-      }
-      c();
+  function v() {
+    if (true) {
+      var  abc = 890;
     }
-    b();
+    console.log(abc);
   }
-  a();
+
+  v();
 }
 
 run();
